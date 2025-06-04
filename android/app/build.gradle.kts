@@ -1,14 +1,15 @@
 plugins {
-    id("com.android.application")
-    id("kotlin-android")
-    id("com.google.gms.google-services") 
+    id("com.android.application") 
+    id("org.jetbrains.kotlin.android") 
+    id("com.google.gms.google-services")
     id("dev.flutter.flutter-gradle-plugin")
 }
+
 
 android {
     namespace = "com.example.pizza_app"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    ndkVersion = "27.0.12077973"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
@@ -21,7 +22,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.pizza_app"
-        minSdk = flutter.minSdkVersion
+        minSdk = 23
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
@@ -62,6 +63,6 @@ subprojects {
     project.evaluationDependsOn(":app")
 }
 
-tasks.register<Delete>("clean") {
+tasks.named<Delete>("clean") {
     delete(rootProject.layout.buildDirectory)
 }
