@@ -54,7 +54,7 @@ flutter run
 ```
 ## Dependencies
 
- -flutter: Flutter SDK core
+- flutter: Flutter SDK core
 - cupertino_icons: iOS-style icons
 - font_awesome_flutter: FontAwesome icons
 - firebase_core: Firebase initialization
