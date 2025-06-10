@@ -38,7 +38,7 @@ Pizza App is a Flutter project that provides a simple and efficient way to brows
 
 #### 1. Clone the repository
 ```markdown
-git clone https://github.com/your-username/pizza_app.git
+git clone https://github.com/your-username/flutter-pizza-app.git
 ```
 #### 2. Navigate into the project directory
 ```markdown
