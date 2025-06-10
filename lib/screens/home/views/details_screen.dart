@@ -6,7 +6,7 @@ import '../../../components/macro.dart';
 class DetailsScreen extends StatelessWidget {
   final Pizza pizza;
   const DetailsScreen(this.pizza, {super.key});
-                                                      
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,7 +28,7 @@ class DetailsScreen extends StatelessWidget {
                     BoxShadow(
                         color: Colors.grey, offset: Offset(3, 3), blurRadius: 5)
                   ],
-                  image: DecorationImage(image: NetworkImage(pizza.picture))),
+                  image: DecorationImage(image: AssetImage(pizza.picture))),
             ),
             const SizedBox(
               height: 30,

@@ -66,7 +66,7 @@ class HomeScreen extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Image.network(state.pizzas[i].picture),
+                            Image.asset(state.pizzas[i].picture),
                             Padding(
                               padding:
                                   const EdgeInsets.symmetric(horizontal: 12.0),
@@ -96,6 +96,7 @@ class HomeScreen extends StatelessWidget {
                                   const SizedBox(width: 8),
                                   Container(
                                     decoration: BoxDecoration(
+                                        // ignore: deprecated_member_use
                                         color: Colors.green.withOpacity(0.2),
                                         borderRadius:
                                             BorderRadius.circular(30)),
