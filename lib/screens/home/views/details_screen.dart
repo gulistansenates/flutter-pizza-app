@@ -6,7 +6,7 @@ import '../../../components/macro.dart';
 class DetailsScreen extends StatelessWidget {
   final Pizza pizza;
   const DetailsScreen(this.pizza, {super.key});
-
+                                                      
   @override
   Widget build(BuildContext context) {
     return Scaffold(
