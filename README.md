@@ -1,10 +1,10 @@
 # 🍕 Pizza App 
 
-A Flutter-based pizza ordering application.
+A Flutter-based pizza ordering application
 
 ## Description
 
-Pizza App is a Flutter project that provides a simple and efficient way to browse, customize, and order pizzas. It uses Firebase Firestore as backend for real-time data management and features state management using BLoC architecture.
+Pizza App is a Flutter project that provides a simple and efficient way to browse, customize, and order pizzas. It uses Firebase Firestore as backend for real-time data management and features state management using BLoC architecture
 
 ## Features
 - Browse a variety of pizzas with appealing UI
@@ -56,6 +56,7 @@ flutter pub get
 ```markdown
 flutter run
 ```
+
 ## Dependencies
 
 - flutter: Flutter SDK core
