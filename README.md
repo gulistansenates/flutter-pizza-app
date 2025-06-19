@@ -16,6 +16,8 @@ Pizza App is a Flutter project that provides a simple and efficient way to brows
 ## 📸 Screenshots
 
 ### 👋 Sign In
+
+![Demo 1](assets/screenshots/sc1.png)  
 <img src="assets/screenshots/sc1.png" alt="Sign In" width="250"/>
 
 ### 🔐 Sign Up 
